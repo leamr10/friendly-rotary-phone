@@ -58,3 +58,13 @@ main {
     background: #a76363;
     color: black;
 }
+
+footer {
+    padding: 10px;
+    display: flex;
+    text-align: flex-end;
+    background: lightblue;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+}
