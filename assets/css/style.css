@@ -51,6 +51,7 @@ main {
     text-align: center;
     border-style: solid;
     border-width: 4px;
+    background-color: rgba(192, 255, 216, 0.274);
 }
 
 .card header {
