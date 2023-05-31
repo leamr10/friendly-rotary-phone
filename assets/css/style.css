@@ -37,6 +37,7 @@ li {
     list-style-type: none;
 }
 
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +46,7 @@ main {
 
 .card {
     flex: 0 0 30%;
-    height: 400pxgit;
+    /* height: 400px; */
     margin: 10px 0;
     padding: 10px;
     text-align: center;
