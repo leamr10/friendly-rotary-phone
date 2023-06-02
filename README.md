@@ -13,4 +13,5 @@ comfortable with the task as I went further along and my CSS abilities have grow
 
 The deployed webpage can be found here:
 
-A screen capture of the webpage can be found here:![screencapture-file-C-Users-leamr-OneDrive-Desktop-workspace-friendly-rotary-phone-index-html-2023-06-01-21_09_46](https://github.com/leamr10/friendly-rotary-phone/assets/133124800/267f9c1d-6967-48b9-ace2-0ef4b0442d9a)
+A screen capture of the webpage can be found here:
+![screencapture-file-C-Users-leamr-OneDrive-Desktop-workspace-friendly-rotary-phone-index-html-2023-06-01-21_12_08](https://github.com/leamr10/friendly-rotary-phone/assets/133124800/c5516850-e47c-42ba-8510-d191e1898545)
