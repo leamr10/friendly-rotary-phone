@@ -6,66 +6,92 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <h1>Mitchell Lea's Portfolio</h1>
+        <h1>Mitchell Lea</h1>
     </header>
 
-    <nav>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+    <!-- <nav>
         <ul>
            <li><a href="#about">About Me</a> </li>
            <li><a href="#projects">Projects</a> </li>
            <li><a href="#contact">Contact</a> </li>
         </ul>
-    </nav>
+    </nav> -->
 
     <section class="about-section"id="about">
         <article><h2>About Me</h2></article>
-        <a href="#contact"> <div class="center"><img src="./assets/images/unnamed (3).png" width="200px" height="300px"> </a> </div>
-       <article>
-            <p> Mitchell Lea is an aspiring coder and software developer working on his certification at UNC Charlotte. He has a bachelor's degree in broadcasting from Appalachian State University
-                in Boone, NC. Mitchell has worked for six years in the professional world of collegiate sports radio work at Learfield in Winston-Salem, NC. He has worked with the Oregon Ducks
-                and Miami RedHawks. He will be learning full stack development throughout the summer of 2023 and will be updating this page with new projects to show off his work 
-                and advancement in the field. Below you can find his contact information as well as past work. 
+        <a href="#contact"> <div class="center"><img src="./assets/images/unnamed (3).png" width="250px" height="420px"> </a> </div>
+        <div class="card text-center">
+            <div class="card-header">
+              About Me
+            </div>
+            <div class="card-body">
+              <!-- <h5 class="card-title">Special title treatment</h5> -->
+              <p class="card-text"> My name is Mitchell Lea and I'm a constantly learning developer with interest in databases and data management! I graduated Appalachian State in 2016 pursuing a career in broadcast journalism but found myself drawn to software
+                development as time went on. I love working on projects with teams dedicated to a common goal and MySQL/MongoDB
+                in particular fascinate me. Movies, spending time with my loved ones and the New York Jets are my biggest passions
+                when I'm off the keyboard! See my previous code by clicking on a project title or check out the deployed work/demo video by clicking on a picture!</p>
+              <a href="file:///C:/Users/leamr/Downloads/Mitchell%20Lea-RESUME.pdf" class="btn btn-primary">Check out my resume!</a>
+            </div>
+          </div>
+       <!-- <article>
+            <p> My name is Mitchell Lea and I'm a constantly learning developer with interest in databases and data management! I graduated Appalachian State in 2016 pursuing a career in broadcast journalism but found myself drawn to software
+                development as time went on. I love working on projects with teams dedicated to a common goal and MySQL/MongoDB
+                in particular fascinate me. Movies, spending time with my loved ones and the New York Jets are my biggest passions
+                when I'm off the keyboard!
             </p>
-        </article>
+        </article> -->
     </section>
 
     <section class="card" id="projects">
-        <header><a href="https://leamr10.github.io/friendly-spork/"> Project 1 </a></header>
-        <a href="https://leamr10.github.io/friendly-spork/"><img src="https://leamr10.github.io/friendly-spork/assets/images/digital-marketing-meeting.jpg" width="825px" height="500px"> </a>
-        <p>Semantic HTML Elements Project</p>
+        <header><a href="https://github.com/leamr10/supreme-guacamole"> SQL Project </a></header>
+        <a href="https://ancient-cove-48096-c1c1d1e494f0.herokuapp.com/"><img src="https://leamr10.github.io/friendly-spork/assets/images/digital-marketing-meeting.jpg" width="825px" height="500px"> </a>
     </section> 
 <main>
     <section class="card">
-        <header>Project 2</header>
-        <a href=""><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" ></a>
+        <header><a href="https://github.com/Craigien/legendary-fiesta-Project-03">NoSQL Project </a></header>
+        <a href="https://radiant-fortress-44546-0acbf05b7546.herokuapp.com/"><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" ></a>
     </section>
     <section class="card">
-        <header>Project 3</header>
-        <a href=""><img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" ></a>
+        <header><a href="https://github.com/leamr10/musical-fishstick">SQL Practice </a></header>
+        <a href="https://drive.google.com/file/d/1PObp5zqgKt9MTU6uZIInwP-Njngbov_z/view?usp=sharing"><img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" ></a>
     </section>
     <section class="card">
-        <header>Project 4</header>
-        <a href=""><img src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" ></a>
+        <header><a href="https://github.com/leamr10/special-enigma">NoSQL Practice </a></header>
+        <a href="https://drive.google.com/file/d/1G94cW2NBqnPODZl4kGwbULoagtra0NU-/view?usp=drive_link"><img src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" ></a>
     </section>
-    <section class="card">
+    <!-- <section class="card">
         <header>Project 5</header>
         <a href=""><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" ></a>
     </section>
     <section class="card">
         <header>Project 6</header>
         <a href=""><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" ></a>
-    </section>
+    </section> -->
 
     </main>
 
     <footer id="contact">
         <h2> Email: <a href="mailto:leamr10@gmail.com">leamr10@gmail.com</a> </h2>
         <h2> GitHub: <a href="https://github.com/leamr10">leamr10 </a></h2>
-        <h2> Phone: 252-916-8421 </h2>
+        <h2> Linkedin: <a href="https://www.linkedin.com/in/mitchell-lea-794712126/">Mitchell Lea </a></h2>
     </footer>
 </body>
 
